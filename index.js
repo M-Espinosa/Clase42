@@ -18,7 +18,7 @@ fs.readFile('log.txt', 'utf-8', (err, data) => {
 fs.appendFile('log.txt', fechaHora + '\n' + arrayUrlImages + '\n', (error) => {
     if (error) throw Error;
     console.log('exito')
-})
+});
 
 
 //moment
