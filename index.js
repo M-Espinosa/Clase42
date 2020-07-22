@@ -12,8 +12,8 @@ arrayUrlImages.forEach(element => {
 
 
 //log.txt
-fs.readFile('log.txt', 'utf-8', (err, datos) => {
-    console.log(datos);
+fs.readFile('log.txt', 'utf-8', (err, data) => {
+    console.log(data);
 })
 fs.appendFile('log.txt', fechaHora + '\n' + arrayUrlImages + '\n', (error) => {
     if (error) throw Error;
